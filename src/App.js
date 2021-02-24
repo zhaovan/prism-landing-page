@@ -84,19 +84,25 @@ function App() {
   const dateMonth = new Intl.DateTimeFormat("en-US", options).format(date);
 
   const dateYear = date.getFullYear();
+  const windowHeight = window.innerHeight;
+  console.log(windowHeight);
 
   useEffect(() => {
-    AOS.init();
-  }, []);
+    AOS.init({
+      offset: windowHeight / 2.1,
+      duration: 600,
+    });
+    AOS.refresh();
+  }, [windowHeight]);
   return (
     <div>
       <div className="container">
         <div className="flex" data-aos="fade-down" data-aos-duration="1000">
           <img src={logo} alt="Logo" width={75} />
-          <div className="title self">Prism Investor Track</div>
+          <div className="title">Prism Investor Track</div>
 
           <button
-            className="button self"
+            className="button"
             onClick={() =>
               window.open("https://airtable.com/shr2yCkcPnRsOOlsf", "_blank")
             }
@@ -107,7 +113,7 @@ function App() {
 
         <div
           className="illustration-container"
-          data-aos="fade-left"
+          data-aos="fade-right"
           data-aos-duration="1000"
         >
           <img
@@ -119,7 +125,7 @@ function App() {
         </div>
         <div
           className="paragraph call-line"
-          data-aos="fade-left"
+          data-aos="fade-right"
           data-aos-duration="1000"
         >
           🏳️‍🌈 Together, we can turn the VC industry into a brilliant spectrum of
@@ -155,7 +161,7 @@ function App() {
             })}
           </ul>
         </div>
-        <div className="paragraph">
+        <div className="paragraph" data-aos="fade-up">
           Applications for the Prism Investor Track are now open and will close
           on May 2nd at 11:59 PST. Click{" "}
           <a
@@ -210,7 +216,7 @@ function App() {
             );
           }
         })}
-        <div className="footer" data-aos="fade-up">
+        <div className="footer" data-aos="fade-in">
           <div>Crafted by Dorm Room Fund </div>
           <div>
             © {dateMonth} {dateYear}
