@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/prism-landing-page/static/css/main.d1115f68.chunk.css",
-    "main.js": "/prism-landing-page/static/js/main.9ff2a742.chunk.js",
-    "main.js.map": "/prism-landing-page/static/js/main.9ff2a742.chunk.js.map",
+    "main.css": "/prism-landing-page/static/css/main.e5686515.chunk.css",
+    "main.js": "/prism-landing-page/static/js/main.f533a424.chunk.js",
+    "main.js.map": "/prism-landing-page/static/js/main.f533a424.chunk.js.map",
     "runtime-main.js": "/prism-landing-page/static/js/runtime-main.1e4d6350.js",
     "runtime-main.js.map": "/prism-landing-page/static/js/runtime-main.1e4d6350.js.map",
     "static/css/2.ec02d681.chunk.css": "/prism-landing-page/static/css/2.ec02d681.chunk.css",
-    "static/js/2.7419261f.chunk.js": "/prism-landing-page/static/js/2.7419261f.chunk.js",
-    "static/js/2.7419261f.chunk.js.map": "/prism-landing-page/static/js/2.7419261f.chunk.js.map",
+    "static/js/2.3ed2eb6a.chunk.js": "/prism-landing-page/static/js/2.3ed2eb6a.chunk.js",
+    "static/js/2.3ed2eb6a.chunk.js.map": "/prism-landing-page/static/js/2.3ed2eb6a.chunk.js.map",
     "static/js/3.59483ee1.chunk.js": "/prism-landing-page/static/js/3.59483ee1.chunk.js",
     "static/js/3.59483ee1.chunk.js.map": "/prism-landing-page/static/js/3.59483ee1.chunk.js.map",
     "index.html": "/prism-landing-page/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/prism-landing-page/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.d1115f68.chunk.css.map": "/prism-landing-page/static/css/main.d1115f68.chunk.css.map",
-    "static/js/2.7419261f.chunk.js.LICENSE.txt": "/prism-landing-page/static/js/2.7419261f.chunk.js.LICENSE.txt",
+    "static/css/main.e5686515.chunk.css.map": "/prism-landing-page/static/css/main.e5686515.chunk.css.map",
+    "static/js/2.3ed2eb6a.chunk.js.LICENSE.txt": "/prism-landing-page/static/js/2.3ed2eb6a.chunk.js.LICENSE.txt",
     "static/media/drf.c8b38997.png": "/prism-landing-page/static/media/drf.c8b38997.png",
     "static/media/fr.be58723d.png": "/prism-landing-page/static/media/fr.be58723d.png",
     "static/media/illustration1.1bb06752.png": "/prism-landing-page/static/media/illustration1.1bb06752.png",
@@ -22,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.1e4d6350.js",
     "static/css/2.ec02d681.chunk.css",
-    "static/js/2.7419261f.chunk.js",
-    "static/css/main.d1115f68.chunk.css",
-    "static/js/main.9ff2a742.chunk.js"
+    "static/js/2.3ed2eb6a.chunk.js",
+    "static/css/main.e5686515.chunk.css",
+    "static/js/main.f533a424.chunk.js"
   ]
 }
