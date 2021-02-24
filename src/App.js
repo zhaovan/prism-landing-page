@@ -89,7 +89,7 @@ function App() {
 
   useEffect(() => {
     AOS.init({
-      offset: windowHeight / 1.9,
+      offset: windowHeight / 2.3,
       duration: 600,
     });
     AOS.refresh();
