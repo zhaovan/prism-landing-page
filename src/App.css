@@ -103,7 +103,7 @@
   text-decoration: none;
   width: fit-content;
   background-position-y: -0%;
-  background-image: linear-gradient(white 50%, #b7d8ff 50%);
+  background-image: linear-gradient(beige 50%, #b7d8ff 50%);
   transition: background 500ms ease;
   background-size: 2px;
   background-size: auto 175%;
@@ -135,6 +135,9 @@
   .call-line {
     width: 96% !important;
   }
+  .faq-container {
+    padding-bottom: 4vh;
+  }
 }
 
 @media only screen and (max-width: 952px) {
@@ -160,8 +163,16 @@
     padding-right: 16px;
     width: 90% !important;
   }
+  .faq-container {
+    margin-top: 8vh;
+    padding-top: 8vh;
+  }
   .footer {
     margin-top: 64px;
-    margin-bottom: 64px;
+    margin-bottom: 128px;
+  }
+  .question {
+    margin-bottom: 2vh;
+    margin-top: 4vh;
   }
 }

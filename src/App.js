@@ -1,8 +1,8 @@
 import logo from "./prism.png";
 import illustration from "./illustration1.png";
 import AOS from "aos";
-import drf from "./drf.png";
-import fr from "./fr.png";
+// import drf from "./drf.png";
+// import fr from "./fr.png";
 import { useEffect } from "react";
 
 import "./App.css";
@@ -89,7 +89,7 @@ function App() {
 
   useEffect(() => {
     AOS.init({
-      offset: windowHeight / 2.1,
+      offset: windowHeight / 1.8,
       duration: 600,
     });
     AOS.refresh();
@@ -217,7 +217,12 @@ function App() {
           }
         })}
         <div className="footer" data-aos="fade-in">
-          <div>Crafted by Dorm Room Fund </div>
+          <div>
+            Crafted by{" "}
+            <a href="https://dormroomfund.com" target="_blank" rel="noreferrer">
+              Dorm Room Fund
+            </a>{" "}
+          </div>
           <div>
             © {dateMonth} {dateYear}
           </div>
