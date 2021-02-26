@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/prism-landing-page/static/css/main.62a53b99.chunk.css",
+    "main.css": "/prism-landing-page/static/css/main.8a718d35.chunk.css",
     "main.js": "/prism-landing-page/static/js/main.bd65532f.chunk.js",
     "main.js.map": "/prism-landing-page/static/js/main.bd65532f.chunk.js.map",
     "runtime-main.js": "/prism-landing-page/static/js/runtime-main.1e4d6350.js",
@@ -12,7 +12,7 @@
     "static/js/3.59483ee1.chunk.js.map": "/prism-landing-page/static/js/3.59483ee1.chunk.js.map",
     "index.html": "/prism-landing-page/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/prism-landing-page/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.62a53b99.chunk.css.map": "/prism-landing-page/static/css/main.62a53b99.chunk.css.map",
+    "static/css/main.8a718d35.chunk.css.map": "/prism-landing-page/static/css/main.8a718d35.chunk.css.map",
     "static/js/2.3ed2eb6a.chunk.js.LICENSE.txt": "/prism-landing-page/static/js/2.3ed2eb6a.chunk.js.LICENSE.txt",
     "static/media/illustration1.1bb06752.png": "/prism-landing-page/static/media/illustration1.1bb06752.png",
     "static/media/prism.206b3e4d.png": "/prism-landing-page/static/media/prism.206b3e4d.png"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.1e4d6350.js",
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.3ed2eb6a.chunk.js",
-    "static/css/main.62a53b99.chunk.css",
+    "static/css/main.8a718d35.chunk.css",
     "static/js/main.bd65532f.chunk.js"
   ]
 }
