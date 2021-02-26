@@ -19,7 +19,7 @@ const faq = [
 
     a: [
       "You’re a full-time student who identifies as LGBTQ+. (If you're not a full time student, I still want to help! Feel free to email me!)",
-      "You have an anticipated graduation of 2023 or later. If this is the summer before you start a full-time program, we especially encourage you to apply (ex: B-School, Law School, Incoming freshman, etc.)",
+      "You have an anticipated graduation of 2022 or later. If this is the summer before you start a full-time program, we especially encourage you to apply (ex: B-School, Law School, Incoming freshman, etc.)",
       "We welcome students of all backgrounds to apply. You could be a freshman majoring in Poli-sci, a junior starting your own art studio, or a PhD student studying Machine Learning.",
       "You have passion for entrepreneurship and curiosity about new innovations, businesses, or technology. Don’t worry if you don’t have a ton of experience yet. We value life-long learners and folks driven by curiosity.",
       "You have hustle and like to tackle challenges head on.",
@@ -64,7 +64,7 @@ const faq = [
 
 const success = [
   "A curriculum crafted around the fundamentals and best practices of Venture Capital. Including sessions on sourcing the best companies, developing investors intuition, venture finance, and more.",
-  "Access to leading LGBTQ+ investors who have walked in their shoes. Angel investors and fund managers who have build portfolios from the ground up.",
+  "Access to leading LGBTQ+ investors who have walked in their shoes. Angel investors and fund managers who have built portfolios from the ground up.",
   "Mentors that are dedicated to their success and who have a wealth of knowledge to share.",
   "A community that is like-mind, diverse and highly motivated. A value-rich community of their peers, Dorm Room Fund, First Round Capital, and VC and entrepreneurship networks like StartOut and Gaingels.",
 ];
@@ -89,7 +89,7 @@ function App() {
 
   useEffect(() => {
     AOS.init({
-      offset: windowHeight / 2.3,
+      offset: Math.max(windowHeight / 2.4),
       duration: 600,
     });
     AOS.refresh();
@@ -98,7 +98,7 @@ function App() {
     <div>
       <div className="container">
         <div className="flex" data-aos="fade-down" data-aos-duration="1000">
-          <img src={logo} alt="Logo" width={75} />
+          <img src={logo} alt="Logo" className="logo" />
           <div className="title">Prism Investor Track</div>
 
           <button
@@ -119,7 +119,6 @@ function App() {
           <img
             src={illustration}
             alt="illustration of people dancing in a parade"
-            width={1000}
             className="illustration"
           />
         </div>
