@@ -1,6 +1,6 @@
 .container {
   margin: 2.5% 12%;
-  font-family: "Cabin";
+  font-family: "Circular Std Book", sans-serif;
 }
 
 .flex {
@@ -46,7 +46,7 @@
   background-color: black;
   color: white;
   padding: 6% 12%;
-  font-family: "Inter";
+  font-family: "Circular Std Book", sans-serif;
 }
 
 .question {
@@ -175,7 +175,7 @@
   .faq-container {
     margin-top: 8vh;
     padding-top: 8vh;
-    padding-bottom: 8vh;
+    padding-bottom: 12vh;
   }
   .footer {
     margin-top: 64px;

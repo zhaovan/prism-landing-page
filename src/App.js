@@ -215,7 +215,7 @@ function App() {
             );
           }
         })}
-        <div className="footer" data-aos="fade-in">
+        <div className="footer" data-aos="fade-in" data-aos-offset="200">
           <div>
             Crafted by{" "}
             <a href="https://dormroomfund.com" target="_blank" rel="noreferrer">
